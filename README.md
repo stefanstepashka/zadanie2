@@ -3,11 +3,14 @@
 Задание 1:
 
 Документация API
-
+```
 POST /upload: Загрузите файл JSON или YML формата
 POST /select-methods: Выберите и сохраните методы из анализированного файла.
+```
+
 Задание 2:
 
+```
 Запрос SQL
 CREATE TABLE sick_patients (
 user_id INT,
@@ -27,3 +30,4 @@ AND a.dt_start <= b.dt_end
 AND a.dt_end >= b.dt_start
 ) AS overlap
 FROM sick_patients a;
+```
